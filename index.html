@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>AUSBONDTRUST</title>
+    <link rel="icon" href="./Views/logo-symbol.svg" />
+  </head>
+  <body class="h-[1000px]">
+    <!-- navbar -->
+    <nav class="hidden md:flex justify-end py-2 px-16 bg-slate-800 text-white">
+      <div>
+        <button class="text-white-700 px-4 py-1 text-center rounded">
+          Help Center
+        </button>
+
+        <button class="text-white-700 px-4 py-1 text-center rounded">
+          Blog
+        </button>
+
+        <button
+          class="border-red-700 text-white-700 hover:bg-red-700 px-4 border py-1 text-center rounded"
+        >
+          login
+        </button>
+      </div>
+    </nav>
+    <!-- header -->
+
+    <header
+      class="lg:px-16 items-center top-0 sticky border-b py-1 flex justify-between container m-auto max-w-[1250px] px-8 z-20 bg-white"
+    >
+      <div>
+        <img
+          class="h-16 w-16"
+          src="./Views/logo-symbol.svg"
+          alt="AUSBONDTRUST logo"
+        />
+      </div>
+      <div id="toggle" class="cursor-pointer md:hidden flex">Menu</div>
+      <div class="hidden md:block">
+        <button class="text-slate-700 px-4 py-1 text-center rounded">
+          About us
+        </button>
+        <button class="text-slate-700 px-4 py-1 text-center rounded">
+          Pricing
+        </button>
+        <button class="text-slate-700 px-4 py-1 text-center rounded">
+          Features
+        </button>
+        <button class="text-slate-700 px-4 py-1 text-center rounded">
+          Learn How to Invest
+        </button>
+        <button
+          class="bg-red-700 text-white px-4 border py-1 text-center rounded"
+        >
+          Join now
+        </button>
+      </div>
+      <!-- menu for small devices -->
+      <div
+        id="menu"
+        class="flex text-start flex-col absolute w-[110vw] bg-white-400 pl-32 right-0 py-8 gap-8 hidden top-[70px] md:hidden bg-white z-20"
+      >
+        <button class="text-slate-700 px-4 py-1 text-center rounded">
+          About us
+        </button>
+        <button class="text-slate-700 px-4 py-1 text-center rounded">
+          Pricing
+        </button>
+        <button class="text-slate-700 px-4 py-1 text-center rounded">
+          Features
+        </button>
+        <button class="text-slate-700 px-4 py-1 text-center rounded">
+          Learn How to Invest
+        </button>
+        <button
+          class="bg-red-700 py-4 text-white px-4 border py-1 text-center rounded"
+        >
+          Join now
+        </button>
+      </div>
+      <!-- menu for small devices -->
+    </header>
+    <!-- header -->
+    <!-- main content -->
+    <main
+      class="lg:px-16 items-center flex-col gap-4 top-0 sticky drop-shadow-xl py-16 flex justify-between container m-auto max-w-[1250px] px-8"
+    >
+      <section class="flex flex-col md:flex-row items-center relative z-20">
+        <div class="flex flex-col md:w-[70%] gap-[24px]">
+          <h1 class="text-4xl font-bold">
+            Invest For Your Future With Australia Bond Trust
+          </h1>
+          <p class="text-xl">2022 Income Bonds Investment Guide</p>
+          <div class="flex gap-4">
+            <div class="flex flex-col gap-2">
+              <div class="flex items-center gap-2">
+                <img class="h-4 w-4" src="./Views/001-check.svg" alt="check" />
+                <p>Earn Up to 7.9% Per Annum</p>
+              </div>
+              <div class="flex items-center gap-2">
+                <img class="h-4 w-4" src="./Views/001-check.svg" alt="check" />
+                <p>Earn Up to 7.9% Per Annum</p>
+              </div>
+              <div class="flex items-center gap-2">
+                <img class="h-4 w-4" src="./Views/001-check.svg" alt="check" />
+                <p>Earn Up to 7.9% Per Annum</p>
+              </div>
+              <div></div>
+            </div>
+            <div class="flex flex-col gap-2">
+              <div class="flex items-center gap-2">
+                <img class="h-4 w-4" src="./Views/001-check.svg" alt="check" />
+                <p>Earn Up to 7.9% Per Annum</p>
+              </div>
+              <div class="flex items-center gap-2">
+                <img class="h-4 w-4" src="./Views/001-check.svg" alt="check" />
+                <p>Earn Up to 7.9% Per Annum</p>
+              </div>
+              <div class="flex items-center gap-2">
+                <img class="h-4 w-4" src="./Views/001-check.svg" alt="check" />
+                <p>Earn Up to 7.9% Per Annum</p>
+              </div>
+              <div></div>
+            </div>
+          </div>
+          <div class="flex gap-2">
+            <input
+              type="email"
+              class="p-4 px-16 outline-none rounded"
+              placeholder="Enter you Email Adress"
+            />
+            <button class="bg-red-700 p-4 rounded text-white w-[150px] text-xl">
+              Join Now
+            </button>
+          </div>
+        </div>
+        <div class="text-center flex-2 flex justify-center items-center pt-6">
+          <img class="h-[650px]" src="./Views/hero-img.png" alt="heroimage" />
+        </div>
+        <img
+          src="./Views/shape-hero.svg"
+          class="absolute -z-10 bottom-0"
+          alt="shap"
+        />
+      </section>
+      <section>
+        <h1
+          class="text-center text-4xl max-w-[550px] md:max-w-[850px] font-semibold mt-8"
+        >
+          Build income and wealth at the same time.
+        </h1>
+        <!-- cards -->
+        <div class="mt-8 flex flex-col gap-8 text-center md:text-start">
+          <div
+            class="flex items-center gap-16 md:gap-32 flex-col md:flex-row justify-center"
+          >
+            <div
+              class="max-w-[70%] md:max-w-[30%] bg-red-700 p-16 rounded-full"
+            >
+              <img
+                src="./Views/001-business-and-finance.svg"
+                alt="cardimgage"
+                class="text-red-400 w-[200px]"
+              />
+            </div>
+            <div class="max-w-[650px] md:max-w-[500px] flex gap-4 flex-col">
+              <h1 class="text-4xl">Higher Income</h1>
+              <p class="text-2xl text-slate-600">
+                Looking for better interest rates? Discover special programs
+                that allow investors to save with no penalties.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="flex items-center gap-16 md:gap-32 flex-col md:flex-row-reverse justify-center"
+          >
+            <div
+              class="max-w-[70%] md:max-w-[30%] bg-red-700 p-16 rounded-full"
+            >
+              <img
+                src="./Views/002-stamp.svg"
+                alt="cardimgage"
+                class="text-red-400 w-[200px]"
+              />
+            </div>
+            <div class="max-w-[650px] md:max-w-[500px] flex gap-4 flex-col">
+              <h1 class="text-4xl">Regulated</h1>
+              <p class="text-2xl text-slate-600">
+                Invest with total peace of mind knowing that bonds are fully
+                regulated.
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex items-center gap-16 md:gap-32 flex-col md:flex-row justify-center"
+          >
+            <div
+              class="max-w-[70%] md:max-w-[30%] bg-red-700 p-16 rounded-full"
+            >
+              <img
+                src="./Views/003-payment-method.svg"
+                alt="cardimgage"
+                class="text-red-400 w-[200px]"
+              />
+            </div>
+            <div class="max-w-[650px] md:max-w-[500px] flex gap-4 flex-col">
+              <h1 class="text-4xl">Regular Payments</h1>
+              <p class="text-2xl text-slate-600">
+                Take advantage of the opportunity to get a steady income stream
+                from your investments.
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex items-center gap-16 md:gap-32 flex-col md:flex-row-reverse justify-center"
+          >
+            <div
+              class="max-w-[70%] md:max-w-[30%] bg-red-700 p-16 rounded-full"
+            >
+              <img
+                src="./Views/004-positive-vote.svg"
+                alt="cardimgage"
+                class="text-red-400 w-[200px]"
+              />
+            </div>
+            <div class="max-w-[650px] md:max-w-[500px] flex gap-4 flex-col">
+              <h1 class="text-4xl">Preferential Rates</h1>
+              <p class="text-2xl text-slate-600">
+                Get to know when the next special rate and first access bonds
+                are available before the public.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- cards -->
+      </section>
+    </main>
+    <section class="bg-gray-600 text-white flex justify-center">
+      <div
+        class="flex px-8 flex-col gap-8 md:flex-row max-w-[1250px] items-center pt-16 gap-4"
+      >
+        <div class="flex flex-col gap-6 md:pl-16">
+          <h1 class="text-4xl">
+            Forget about the inflation battle and get on with growing your
+            capital.
+          </h1>
+          <p class="text-slate-600">
+            Take advantage of investment opportunities with the world's leading
+            financial institutions.
+          </p>
+          <button
+            class="bg-red-700 py-4 text-white px-4 border py-1 text-center max-w-[150px] border-none rounded"
+          >
+            Get yours Now
+          </button>
+        </div>
+        <div>
+          <img class="w-[550px]" src="./Views/book.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section
+      class="flex pb-16 px-8 flex-col gap-8 max-w-[1250px] items-center pt-16 gap-4 m-auto"
+    >
+      <h1 class="text-4xl mb-8 text-center">
+        Build Investment Knowledge Effortlessly
+      </h1>
+      <div class="flex flex-col md:flex-row gap-16">
+        <div class="flex flex-col gap-8">
+          <div>
+            <img
+              class="max-w-[450px]"
+              src="./Views/HK.png"
+              alt="hongkongimage"
+            />
+          </div>
+          <div>
+            <p class="mb-4 text-2xl text-center">
+              Why Inest in Hong Kong Stocks
+            </p>
+            <p class="text-slate-600">
+              Build Investment Knowledge Effortlessly With Selfwealth committed
+              to offering members more choice and opportunity to invest in the
+              stocks and themes that matter to you most, we recently launched
+              Hong Kong share trading.
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-col gap-8">
+          <div>
+            <img
+              class="max-w-[450px]"
+              src="./Views/Monthly-ASX-Trends-December-22.png"
+              alt="Monthlyimage"
+            />
+          </div>
+          <div>
+            <p class="text-2xl mb-4 text-center">
+              Most Traded ASX Stocks December 2023
+            </p>
+            <p class="text-slate-600">
+              The Australian share market ended the year on a downbeat note in
+              December. Following two months of strong gains, the benchmark ASX
+              200 index declined by 3.4%.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact section -->
+    <section class="bg-slate-200">
+      <div
+        class="flex pb-16 px-8 flex-col gap-8 max-w-[1250px] pt-16 gap-4 items-center m-auto"
+      >
+        <div class="flex flex-col md:flex-row-reverse items-center gap-32">
+          <div class="flex flex-col gap-4">
+            <h1 class="text-3xl">Start Your Investment Journey Today!</h1>
+            <ul class="text-slate-600 flex flex-col gap-2">
+              <li class="flex items-center gap-2">
+                <span class="h-1 w-1 bg-red-700 block rounded-full"> </span
+                ><span> Bank-level security, minus bank-level fees </span>
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="h-1 w-1 bg-red-700 block rounded-full"> </span
+                ><span> A low $9.50 brokerage fee, on every trade</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="h-1 w-1 bg-red-700 block rounded-full"> </span
+                ><span>
+                  Customer support with your best interests at heart</span
+                >
+              </li>
+            </ul>
+            <button
+              class="border-red-700 border p-2 rounded max-w-[150px] text-red-700 hover:bg-red-700 hover:text-white"
+            >
+              Join Now!
+            </button>
+          </div>
+          <div>
+            <img
+              src="./Views/book.png"
+              class="max-w-[350px]"
+              alt="contactusimage"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact section -->
+    <!-- main content -->
+    <footer class="bg-slate-100">
+      <section
+        class="max-w-[1250px] m-auto flex px-8 md:flex-row flex-col py-16 gap-8 md:gap-32"
+      >
+        <div class="flex flex-col gap-8 text-slate-600">
+          <div>
+            <p class="font-bold text-slate-800">MEDIA</p>
+            <p class="hover:text-red-700 cursor-pointer">Seflwealth News</p>
+            <p class="hover:text-red-700 cursor-pointer">Learn</p>
+            <p class="hover:text-red-700 cursor-pointer">How to invest</p>
+            <p class="hover:text-red-700 cursor-pointer">Blog</p>
+          </div>
+          <div>
+            <p class="font-bold text-slate-800">ABOUT US</p>
+            <p>About us</p>
+            <p class="hover:text-red-700 cursor-pointer">Contact us</p>
+            <p class="hover:text-red-700 cursor-pointer">Invester Center</p>
+            <p class="hover:text-red-700 cursor-pointer">Advisers</p>
+          </div>
+        </div>
+        <div class="text-slate-600 flex flex-col gap-4">
+          <p class="font-bold text-slate-800">SHARE TRADING</p>
+          <p>security</p>
+          <p class="hover:text-red-700 cursor-pointer">Mobile App</p>
+          <p class="hover:text-red-700 cursor-pointer">Features</p>
+          <p class="hover:text-red-700 cursor-pointer">Pricing</p>
+          <p class="hover:text-red-700 cursor-pointer">HK Trading</p>
+          <p class="hover:text-red-700 cursor-pointer">US Trading</p>
+          <p class="hover:text-red-700 cursor-pointer">Refer a Friend</p>
+          <p class="hover:text-red-700 cursor-pointer">Xpress Super</p>
+          <p class="hover:text-red-700 cursor-pointer">INvesting for Kids</p>
+          <p class="hover:text-red-700 cursor-pointer">Help Center</p>
+        </div>
+        <div class="flex flex-col gap-4 text-slate-600">
+          <p class="font-bold text-slate-800">LIVE CHAT OPERATING HOURS</p>
+          <p>
+            <span class="font-bold text-slate-800 mb-5"> OPEN </span><br />
+            ASX: Monday – Friday,<br />
+            10.00 am – 6.00 pm, Sydney time
+          </p>
+          <p>
+            US: Monday – Saturday,
+            <br />
+            10:00 pm – 6:00 am, Sydney time
+          </p>
+          <p>
+            HKEX: Monday – Friday,
+            <br />
+            10.00 am – 6.00 pm, Sydney time
+          </p>
+          <p>
+            <span class="font-bold text-slate-800"> CLOSED </span><br />
+            National holidays in Australia, US and <br />Hong Kong.
+          </p>
+        </div>
+        <div
+          class="hidden md:flex border rounded py-4 flex-col px-4 gap-4 items-center max-h-[250px]"
+        >
+          <div class="flex gap-8 items-center">
+            <img src="./Views/logo-symbol.svg " class="w-[50px]" alt="logo" />
+            <p>AUSBONDTRUST</p>
+          </div>
+          <p class="text-slate-700 text-center">
+            Trusted by over 127,000 Australian investors. Only $9.50 per trade!
+          </p>
+          <button
+            class="border-red-700 border p-2 rounded max-w-[150px] text-red-700 hover:bg-red-700 hover:text-white"
+          >
+            Join US Now
+          </button>
+        </div>
+      </section>
+      <section
+        class="m-auto pb-4 flex flex-col px-8 flex-col gap-8 max-w-[1250px]"
+      >
+        <hr class="w-[100%] h-1 bg-slate-500" />
+        <div class="flex justify-between">
+          <div class="flex gap-8 items-center">
+            <img src="./Views/logo-symbol.svg " class="w-[50px]" alt="logo" />
+            <p class="text-xl font-bold">
+              <span class="text-blue-800"> AUS </span>BONDTRUST
+            </p>
+          </div>
+          <div>
+            © 2022 Australia Bond Trust. All rights reserved. |
+            <a href="%" class="text-blue-400"> Privacy Policy </a>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <script>
+      console.log("ff");
+      let toggle = document.getElementById("toggle");
+      let smallMenu = document.getElementById("menu");
+      toggle.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+      });
+    </script>
+  </body>
+</html>
